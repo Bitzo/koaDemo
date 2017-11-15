@@ -1,0 +1,14 @@
+{
+  "name": "studyKoa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bitzo",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.4.1"
+  }
+}
