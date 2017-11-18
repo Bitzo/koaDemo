@@ -1,4 +1,5 @@
 const config = {
+  // mtsql config
   mysql: {
     host: '',
     user: '',

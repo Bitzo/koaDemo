@@ -9,9 +9,11 @@
   "author": "bitzo",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^2.5.7",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.3.0",
-    "koa-view": "^2.1.1"
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.2"
   }
 }
