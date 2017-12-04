@@ -36,6 +36,14 @@ router.get('/bye', (ctx) => {
   ctx.body = `${ctx.method}: ${ctx.url}`;
 });
 
+router.get('/home', (ctx) => {
+  console.log(`${ctx.method}: ${ctx.url}`);
+  return ctx.render('home', {
+    name: 'bitzo',
+    content: 'nothing',
+  });
+});
+
 router.use('/api', usersRouter.routes());
 
 module.exports = router;

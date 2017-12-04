@@ -1,9 +1,9 @@
 const config = {
   // mtsql config
   mysql: {
-    host: '',
-    user: '',
-    password: '',
+    host: 'localhost',
+    user: 'bitzo',
+    password: '123456',
   },
 };
 
