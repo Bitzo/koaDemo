@@ -8,7 +8,7 @@
 - [x] bodyparser
 - [x] staticFilesHandler
 - [x] 模版引擎
-- [] mysql模块
-- [] service/dal demo
-- [] front-end 模块
-- [] other
+- [ ] mysql模块
+- [ ] service/dal demo
+- [ ] front-end 模块
+- [ ] other
