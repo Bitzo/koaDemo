@@ -1,5 +1,5 @@
 {
-  "name": "studyKoa",
+  "name": "koaDemo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "bitzo",
   "license": "MIT",
   "dependencies": {
-    "ejs": "^2.5.7",
+    "jade": "^1.11.0",
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.3.0",

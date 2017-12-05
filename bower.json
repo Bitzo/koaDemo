@@ -1,0 +1,23 @@
+{
+  "name": "koaDemo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "bitzo"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bitzo/spiderDomo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.7",
+    "angular-route": "^1.6.7"
+  }
+}
