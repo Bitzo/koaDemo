@@ -4,6 +4,7 @@ const views = require('koa-views');
 const bodyparser = require('koa-bodyparser');
 const statics = require('koa-static');
 const path = require('path');
+const config = require('./config/config');
 
 const app = new Koa();
 
@@ -32,4 +33,6 @@ app.use(async (ctx) => {
   });
 });
 
-app.listen(3000);
+app.listen(config.port);
+
+console.log(`Server is listening on port ${config.port}`);
